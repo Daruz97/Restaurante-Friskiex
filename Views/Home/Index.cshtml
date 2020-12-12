@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "Inicio";
+}
+<body>
+<h2 class="row justify-content-center">@ViewBag.Nombre</h2>
+
+<div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Clásica  Frisk
+                </button>
+            </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <img class="row justify-content-center" src="https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg" />
+            <div class="card-body">
+                Una deliciosa Hamburguesa con  carne a la parrilla marinada con nuestra famosa salsa especial, pepinillos encurtidos,una rebanada de queso, cebolla rebanada, rodajas de tomate, lechuga,
+                mostaza, mayonesa, salsa capsup y cubierto con nuestro pan horneado hecho a mano.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Double Frisk
+                </button>
+            </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <img src="https://cdn.pixabay.com/photo/2020/11/08/01/44/burger-5722678_1280.jpg" />
+            <div class="card-body">
+                Una deliciosa Hamburguesa con doble  carne de libra a la parrilla marinada con nuestra famosa salsa especial, pepinillos encurtidos,una rebanada de queso, cebolla rebanada, rodajas de tomate, lechuga,
+                mostaza, mayonesa, salsa capsup y cubierto con nuestro pan horneado hecho a mano.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Chicken Frisk
+                </button>
+            </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <img src="https://cdn.pixabay.com/photo/2014/09/03/15/05/sandwich-434658_1280.jpg" />
+            <div class="card-body">
+                Una deliciosa Hamburguesa con nuestro delicioso pollo empnizado de milanesa marinada con nuestra  salsa especial Caesar's, pepinillos encurtidos,una rebanada de queso, cebolla rebanada, rodajas de tomate, lechuga,
+                mostaza, mayonesa, salsa capsup y cubierto con nuestro pan horneado hecho a mano.
+            </div>
+        </div>
+    </div>
+</div>
+</body>
